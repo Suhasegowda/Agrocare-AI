@@ -1,0 +1,4 @@
+# Optional. Needed only to train MobileNetV2 and to run Grad-CAM inference.
+# The API starts without this package and returns an uncertain diagnosis
+# until weights exist and TensorFlow is installed.
+tensorflow>=2.16
